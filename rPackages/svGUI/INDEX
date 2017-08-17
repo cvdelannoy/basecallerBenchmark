@@ -1,0 +1,7 @@
+dontAsk                 Don't we ask something though the GUI?
+gui                     A GUI object
+guiAdd                  Creation of GUI objects
+setUI                   Set a property in the UI (User Interface), or
+                        start an action
+svGUI-package           SciViews GUI API - Functions to manage GUIs in
+                        R

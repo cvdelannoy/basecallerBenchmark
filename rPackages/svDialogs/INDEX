@@ -1,0 +1,9 @@
+dlgDir                  A select directory dialog box
+dlgForm                 A flexible form dialog box
+dlgInput                A simple input box
+dlgList                 A list selection dialog box
+dlgMessage              Display a message box
+dlgOpen                 A select file(s) to open dialog box
+dlgSave                 A select file to save dialog box
+menuAdd                 Manage custom R menus
+svDialogs-package       SciViews GUI API - Dialog boxes

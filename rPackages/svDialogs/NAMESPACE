@@ -1,0 +1,60 @@
+# To be eliminated, except for svGUI
+#import(tcltk, svMisc, svGUI)
+import(svGUI)
+
+export(dlgDir,
+       dlgForm,
+       dlgInput,
+       dlgList,
+       dlgMessage,
+       dlgOpen,
+       dlgSave,
+       dlgFilters,
+       msgBox,
+       okCancelBox,
+       menuAdd,
+       menuAddItem,
+       menuDel,
+       menuDelItem,
+       menuNames,
+       menuItems,
+       ".Last.lib")
+       #display,
+       #guiDlg,
+       #guiDlgFunction,
+       #guiEval,
+       #guiPane.tcltk,
+       #guiPane.entry.tcltk,
+       #guiPane.list.tcltk,
+       #guiSetStyle.tcltk)
+
+# To be eliminated
+#S3method(display, guiDlg)
+
+S3method(dlgDir, gui)
+S3method(dlgDir, textCLI)
+S3method(dlgDir, nativeGUI)
+
+S3method(dlgForm, gui)
+S3method(dlgForm, textCLI)
+S3method(dlgForm, nativeGUI)
+
+S3method(dlgInput, gui)
+S3method(dlgInput, textCLI)
+S3method(dlgInput, nativeGUI)
+
+S3method(dlgList, gui)
+S3method(dlgList, textCLI)
+S3method(dlgList, nativeGUI)
+
+S3method(dlgMessage, gui)
+S3method(dlgMessage, textCLI)
+S3method(dlgMessage, nativeGUI)
+
+S3method(dlgOpen, gui)
+S3method(dlgOpen, textCLI)
+S3method(dlgOpen, nativeGUI)
+
+S3method(dlgSave, gui)
+S3method(dlgSave, textCLI)
+S3method(dlgSave, nativeGUI)
